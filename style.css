@@ -55,6 +55,11 @@ body {
     padding: 0px;
 }
 
+.dot {
+    line-height: 44px;
+    color: burlywood;
+}
+
 .nav-link {
     padding: 10px;
     color: burlywood;
@@ -106,7 +111,8 @@ h2 {
     margin: 20px 0;
 }
 
-#about-us h1,#about-us h2 {
+#about-us h1,
+#about-us h2 {
     text-align: left;
 }
 
@@ -233,19 +239,22 @@ figcaption {
     margin-top: 60px;
 }
 
-.contact input,textarea {
+.contact input,
+textarea {
     width: 100%;
     padding: 10px;
     border: 2px solid burlywood;
-    
+
 }
 
-.contact input::placeholder, textarea::placeholder {
+.contact input::placeholder,
+textarea::placeholder {
     color: burlywood;
-    
+
 }
 
-.contact input:focus,textarea:focus {
+.contact input:focus,
+textarea:focus {
     outline: 0;
 }
 
@@ -259,7 +268,7 @@ figcaption {
     padding: 5px 20px;
     border-style: none;
     margin-top: 20px;
-        transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .button-send:hover {
@@ -284,7 +293,7 @@ figcaption {
     justify-content: center;
 }
 
-.social-media a{
+.social-media a {
     color: #fff;
     background-color: burlywood;
     width: 40px;
