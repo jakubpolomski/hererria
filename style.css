@@ -186,6 +186,10 @@ h2 {
     align-items: center;
 }
 
+.reviews p {
+    max-width: 70%;
+}
+
 .customer img {
     width: 150px;
 }
