@@ -178,7 +178,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 #opinie h1 {
@@ -190,6 +190,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .reviews p {
