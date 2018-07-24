@@ -3,9 +3,11 @@ body {
     padding: 0;
 }
 
+/*
 .carousel-height {
     height: 100vh;
 }
+*/
 
 .navbar-background {
     background-color: #fff;
@@ -41,12 +43,13 @@ body {
 .herreria-logo {
     background-image: url(details/logo-male-biale-tlo.png);
     height: 80px;
-    width: 240px;
+    width: 180px;
     position: absolute;
     left: 50%;
-    margin-left: -120px;
+    margin-left: -90px;
     background-position: center;
-    background-size: cover;
+    background-size: 240px;
+    background-repeat: no-repeat;
     top: 0;
 }
 
@@ -100,10 +103,6 @@ h2 {
     text-align: left;
 }
 
-.section-width {
-    width: 70%;
-}
-
 .decsription {
     display: flex;
     align-items: center;
@@ -154,7 +153,7 @@ h2 {
 }
 
 .staff-photo img {
-    width: 250px;
+    width: 200px;
 }
 
 .description-staff-text p {
