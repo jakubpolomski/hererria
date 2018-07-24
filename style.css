@@ -52,6 +52,11 @@ body {
     display: inline-flex;
     list-style: none;
     text-align: center;
+    padding: 0px;
+}
+
+.nav-link {
+    padding: 8px;
 }
 
 h1 {
