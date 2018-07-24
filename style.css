@@ -108,22 +108,25 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    padding-left: 30px;
+    margin: 30px;
 }
 
 .description-text {
     padding-left: 20px;
 }
 
+.description-text p {
+    font-size: 15px;
+}
+
 .picture img {
-    max-width: 160px;
+    max-width: 110px;
     flex-shrink: 1;
 }
 
 h3 {
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .line {
