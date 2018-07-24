@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-height {
+    height: 100vh;
+}
+
+.navbar-background {
+    background-color: #fff;
+}
+
+.herreria-outer {
+    border: 4px solid burlywood;
+    width: 70%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #fff;
+}
+
+.herreria-inner {
+    border: 2px solid burlywood;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+}
+
+.navbar-center-text {
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.herreria-logo {
+    background-image: url(details/logo-male-biale-tlo.png);
+    height: 80px;
+    width: 240px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 40px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: burlywood;
+    font-size: 30px;
+}
+
+#about-us {
+    display: flex;
+    justify-content: center;
+}
+
+.about-company {
+    padding-top: 20px;
+    width: 70%;
+}
+
+#about-us p {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#nasze-uslugi {
+    background-image: url(details/tlo-us.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#nasze-uslugi h1 {
+    text-align: center;
+    flex-basis: 100%;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+#about-us h1,#about-us h2 {
+    text-align: left;
+}
+
+.section-width {
+    width: 70%;
+}
+
+.decsription {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.description-text {
+    padding-left: 20px;
+}
+
+.picture img {
+    max-width: 160px;
+    flex-shrink: 1;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.line {
+    border-bottom: 3px solid burlywood;
+    height: 2px;
+    width: 200px;
+    align-self: center;
+}
+
+#nasz-personel {
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+#nasz-personel h1,
+h2 {
+    text-align: right;
+}
+
+.staff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.staff-photo img {
+    width: 250px;
+}
+
+.description-staff-text p {
+    text-align: center;
+}
+
+#opinie {
+    background-color: #f6f6f6f6;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#opinie h1 {
+    text-align: center;
+}
+
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer img {
+    width: 150px;
+}
+
+#opinie p {
+    border-bottom: 1px solid burlywood;
+    border-top: 1px solid burlywood;
+    text-align: center;
+    padding: 20px;
+}
+
+figcaption {
+    padding: 20px;
+}
+
+.stars img {
+    max-width: 200px;
+}
+
+#kontakt {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.contact input,textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid burlywood;
+    
+}
+
+.contact input::placeholder, textarea::placeholder {
+    color: burlywood;
+    
+}
+
+.contact input:focus,textarea:focus {
+    outline: 0;
+}
+
+.contact textarea {
+    height: 100%;
+}
+
+.button-send {
+    background-color: burlywood;
+    color: #fff;
+    padding: 5px 20px;
+    border-style: none;
+    margin-top: 20px;
+        transition: all 0.4s;
+}
+
+.button-send:hover {
+    background-color: #f6f6f6f6;
+    color: burlywood;
+}
+
+#kontakt h1 {
+    text-align: center;
+}
+
+.slide-height {
+    height: 360px;
+}
+
+.map {
+    display: flex;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a{
+    color: #fff;
+    background-color: burlywood;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.2s;
+    margin: 10px;
+}
+
+.social-media a:hover {
+    background: #f6f6f6f6;
+    color: burlywood;
+}
+
+footer {
+    background-color: #f6f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
