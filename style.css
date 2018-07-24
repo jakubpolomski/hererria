@@ -3,12 +3,6 @@ body {
     padding: 0;
 }
 
-/*
-.carousel-height {
-    height: 100vh;
-}
-*/
-
 .navbar-background {
     background-color: #fff;
 }
@@ -19,7 +13,7 @@ body {
     height: 120px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     display: flex;
     background-color: #fff;
@@ -32,6 +26,7 @@ body {
     display: flex;
     align-items: flex-end;
     background-color: #fff;
+    justify-content: center;
 }
 
 .navbar-center-text {
@@ -51,6 +46,12 @@ body {
     background-size: 240px;
     background-repeat: no-repeat;
     top: 0;
+}
+
+.navbar-main-items {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
 }
 
 h1 {
