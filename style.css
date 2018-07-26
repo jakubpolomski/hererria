@@ -1,6 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 800;
 }
 
 .navbar-background {
@@ -63,6 +70,11 @@ body {
 .nav-link {
     padding: 10px;
     color: burlywood;
+    transition: all 0.4s;
+}
+
+.nav-link:hover {
+    color: #000;
 }
 
 h1 {
@@ -77,19 +89,19 @@ h2 {
     font-size: 30px;
 }
 
-#about-us {
+#o-nas {
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .about-company {
-    padding-top: 20px;
+    padding-top: 60px;
     width: 70%;
 }
 
-#about-us p {
-    padding-top: 40px;
-    padding-bottom: 60px;
+#o-nas p {
+    margin: 0;
 }
 
 #nasze-uslugi {
@@ -111,8 +123,8 @@ h2 {
     margin: 20px 0;
 }
 
-#about-us h1,
-#about-us h2 {
+#o-nas h1,
+#o-nas h2 {
     text-align: left;
 }
 
@@ -120,7 +132,7 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin: 30px;
+    margin: 30px 0;
 }
 
 .description-text {
@@ -178,19 +190,17 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 #opinie h1 {
     text-align: center;
 }
 
-
 .reviews {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
 }
 
 .reviews p {
@@ -205,7 +215,7 @@ h2 {
     border-bottom: 1px solid burlywood;
     border-top: 1px solid burlywood;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 figcaption {
@@ -270,6 +280,7 @@ textarea:focus {
     border-style: none;
     margin-top: 20px;
     transition: all 0.4s;
+    cursor: pointer;
 }
 
 .button-send:hover {
@@ -298,14 +309,16 @@ textarea:focus {
     color: #fff;
     background-color: burlywood;
     width: 40px;
-    height: 40px;
     display: inline-block;
-    line-height: 40px;
     text-align: center;
     border-radius: 50%;
     font-size: 20px;
     transition: all 0.2s;
     margin: 10px;
+}
+
+.social-media a i {
+    line-height: 40px;
 }
 
 .social-media a:hover {
