@@ -261,13 +261,11 @@ textarea {
     width: 100%;
     padding: 10px;
     border: 2px solid burlywood;
-
 }
 
 .contact input::placeholder,
 textarea::placeholder {
     color: burlywood;
-
 }
 
 .contact input:focus,
