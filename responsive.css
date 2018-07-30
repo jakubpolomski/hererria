@@ -1,17 +1,3 @@
-/*
-@media all and (max-width: 992px) { jak dodaje coś to 'and' i to co chce
-        width: 49%;
-    }
-}
-
-@media all and (max-width: 768px) {
-   
-        figure {
-        width: 100%;
-    }
-}
-*/
-
 @media all and (max-width: 768px) {
     .herreria-outer {
         width: 95%;
