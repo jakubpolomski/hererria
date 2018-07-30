@@ -342,3 +342,13 @@ footer {
 footer p {
     margin: 0;
 }
+
+.button-book {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-book img {
+    max-width: 250px;
+}
+
